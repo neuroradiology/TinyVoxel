@@ -5,6 +5,8 @@ A voxelrenderer made with LibGDX supporting desktop, Android and browser. iOS is
 
 Everything is GLES 2.0 compatible and there are no extensions used.
 
+See an example of a HTML build at http://www.vrpaint.com/voxel .
+
 Usage
 -----
 Create a bundle and add it to the transparentBundleArray or bundleArray. You can do transformations on the 'transform' matrix, 
@@ -24,7 +26,7 @@ Transparency takes a bit more visual processing.
 
 Scaling
 -------
-Isn't incorporated at the moment, but could be in the future.
+Isn't incorporated at the moment, but could be in the future. Biggest hurdle is the rendering front to back.
 
 Character
 ---------

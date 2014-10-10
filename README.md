@@ -1,7 +1,7 @@
 TinyVoxel
 =========
 
-A voxelrenderer made with LibGDX supporting desktop, Android and browser. iOS is untested.
+A voxelrenderer made with LibGDX supporting desktop, Android and browser. iOS is untested. Ouya support is buggy, due to the small depth buffer.
 
 Everything is GLES 2.0 compatible and there are no extensions used.
 

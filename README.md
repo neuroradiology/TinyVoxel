@@ -10,6 +10,11 @@ Everything is GLES 2.0 compatible and there are no extensions used.
 
 See an example of a HTML build at http://www.vrpaint.com/voxel .
 
+Build
+-----
+TinyVoxel relies on Gradle. It is very easy to use if you install a Gradle plugin for your favorite IDE. 
+Build from command line with for example: 'gradlew html:dist' for a distribution HTML version.
+
 Usage
 -----
 Create a bundle and add it to the transparentBundleArray or bundleArray. You can do transformations on the 'transform' matrix, 

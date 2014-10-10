@@ -1,0 +1,441 @@
+Configuration on demand is an incubating feature.
+:html:clean
+:core:compileJava UP-TO-DATE
+:core:processResources UP-TO-DATE
+:core:classes UP-TO-DATE
+:core:jar UP-TO-DATE
+:html:compileJava
+:html:processResources UP-TO-DATE
+:html:classes
+:html:addSource
+:html:draftCompileGwt
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\.
+../core/assets
+Copying resources from ../core/assets to war/
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\..\core\assets
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\assets
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\.
+../core/assets
+Copying resources from ../core/assets to war/
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\..\core\assets
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\assets
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\.
+../core/assets
+Copying resources from ../core/assets to war/
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\..\core\assets
+C:\Users\Kajos\Projects\TinyVoxelGeneric\html\assets
+Compiling module com.toet.TinyVoxel.GdxDefinitionSuperdev
+   Computing all possible rebind results for 'com.badlogic.gdx.backends.gwt.preloader.PreloaderBundle'
+      Rebinding com.badlogic.gdx.backends.gwt.preloader.PreloaderBundle
+         Invoking generator com.badlogic.gdx.backends.gwt.preloader.PreloaderBundleGenerator
+            [ERROR] Generator 'com.badlogic.gdx.backends.gwt.preloader.PreloaderBundleGenerator' threw an exception while rebinding 'com.badlogic.gdx.backends.gwt.preloader.PreloaderBundle'
+java.lang.RuntimeException: Couldn't clean target path 'war\assets'
+	at com.badlogic.gdx.backends.gwt.preloader.PreloaderBundleGenerator.generate(PreloaderBundleGenerator.java:83)
+	at com.google.gwt.core.ext.IncrementalGenerator.generateNonIncrementally(IncrementalGenerator.java:40)
+	at com.google.gwt.dev.javac.StandardGeneratorContext.runGeneratorIncrementally(StandardGeneratorContext.java:676)
+	at com.google.gwt.dev.cfg.RuleGenerateWith.realize(RuleGenerateWith.java:41)
+	at com.google.gwt.dev.shell.StandardRebindOracle$Rebinder.rebind(StandardRebindOracle.java:79)
+	at com.google.gwt.dev.shell.StandardRebindOracle.rebind(StandardRebindOracle.java:276)
+	at com.google.gwt.dev.shell.StandardRebindOracle.rebind(StandardRebindOracle.java:265)
+	at com.google.gwt.dev.DistillerRebindPermutationOracle.getAllPossibleRebindAnswers(DistillerRebindPermutationOracle.java:91)
+	at com.google.gwt.dev.jjs.impl.UnifyAst$UnifyVisitor.handleGwtCreate(UnifyAst.java:387)
+	at com.google.gwt.dev.jjs.impl.UnifyAst$UnifyVisitor.handleMagicMethodCall(UnifyAst.java:465)
+	at com.google.gwt.dev.jjs.impl.UnifyAst$UnifyVisitor.endVisit(UnifyAst.java:255)
+	at com.google.gwt.dev.jjs.ast.JMethodCall.traverse(JMethodCall.java:244)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.traverse(JModVisitor.java:361)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:273)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:265)
+	at com.google.gwt.dev.jjs.ast.JVisitor.accept(JVisitor.java:117)
+	at com.google.gwt.dev.jjs.ast.JExpressionStatement.traverse(JExpressionStatement.java:41)
+	at com.google.gwt.dev.jjs.ast.JModVisitor$ListContextImmutable.traverse(JModVisitor.java:170)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.acceptWithInsertRemoveImmutable(JModVisitor.java:336)
+	at com.google.gwt.dev.jjs.ast.JBlock.traverse(JBlock.java:83)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.traverse(JModVisitor.java:361)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:273)
+	at com.google.gwt.dev.jjs.ast.JVisitor.accept(JVisitor.java:138)
+	at com.google.gwt.dev.jjs.ast.JVisitor.accept(JVisitor.java:134)
+	at com.google.gwt.dev.jjs.ast.JMethodBody.traverse(JMethodBody.java:82)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.traverse(JModVisitor.java:361)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:273)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:265)
+	at com.google.gwt.dev.jjs.ast.JMethod.visitChildren(JMethod.java:449)
+	at com.google.gwt.dev.jjs.ast.JConstructor.traverse(JConstructor.java:129)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.traverse(JModVisitor.java:361)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:273)
+	at com.google.gwt.dev.jjs.ast.JModVisitor.accept(JModVisitor.java:265)
+	at com.google.gwt.dev.jjs.impl.UnifyAst.mainLoop(UnifyAst.java:940)
+	at com.google.gwt.dev.jjs.impl.UnifyAst.exec(UnifyAst.java:665)
+	at com.google.gwt.dev.jjs.JavaToJavaScriptCompiler.precompile(JavaToJavaScriptCompiler.java:672)
+	at com.google.gwt.dev.jjs.JavaScriptCompiler.precompile(JavaScriptCompiler.java:34)
+	at com.google.gwt.dev.Precompile.precompile(Precompile.java:271)
+	at com.google.gwt.dev.Precompile.precompile(Precompile.java:223)
+	at com.google.gwt.dev.Precompile.precompile(Precompile.java:139)
+	at com.google.gwt.dev.Compiler.run(Compiler.java:167)
+	at com.google.gwt.dev.Compiler.run(Compiler.java:132)
+	at com.google.gwt.dev.Compiler$1.run(Compiler.java:99)
+	at com.google.gwt.dev.CompileTaskRunner.doRun(CompileTaskRunner.java:55)
+	at com.google.gwt.dev.CompileTaskRunner.runWithAppropriateLogger(CompileTaskRunner.java:50)
+	at com.google.gwt.dev.Compiler.main(Compiler.java:106)
+   [ERROR] Errors in 'com/badlogic/gdx/backends/gwt/preloader/Preloader.java'
+      [ERROR] Line 115: Failed to resolve 'com.badlogic.gdx.backends.gwt.preloader.PreloaderBundle' via deferred binding
+  com.badlogic.gdx.graphics.g3d.particles.influencers.Influencer
+  com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerFinalizerInfluencer
+    com.badlogic.gdx.graphics.g3d.particles.ParallelArray.FloatChannel
+      float[]
+        java.lang.Object
+          boolean
+          int
+          java.lang.String
+            java.lang.CharSequence
+              char
+            char[]
+              void
+            double
+            float
+            long
+            java.lang.String[]
+            byte[]
+            int[]
+            java.lang.StringBuffer
+            java.lang.StringBuilder
+      com.badlogic.gdx.graphics.g3d.particles.ParallelArray.Channel
+        java.lang.Object[]
+    com.badlogic.gdx.graphics.g3d.particles.ParallelArray.ObjectChannel
+  com.badlogic.gdx.graphics.g3d.particles.influencers.ScaleInfluencer
+    com.badlogic.gdx.graphics.g3d.particles.influencers.SimpleInfluencer
+      com.badlogic.gdx.graphics.g3d.particles.ParallelArray.ChannelDescriptor
+  com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier
+    com.badlogic.gdx.math.Vector3
+      com.badlogic.gdx.math.Matrix4
+        com.badlogic.gdx.math.Quaternion
+          com.badlogic.gdx.math.Matrix3
+            com.badlogic.gdx.math.Vector2
+              com.badlogic.gdx.math.Vector
+                com.badlogic.gdx.math.Interpolation
+                  com.badlogic.gdx.math.Interpolation.Pow
+                  com.badlogic.gdx.math.Interpolation.PowIn
+                  com.badlogic.gdx.math.Interpolation.PowOut
+                  com.badlogic.gdx.math.Interpolation.Elastic
+                  com.badlogic.gdx.math.Interpolation.Swing
+                  com.badlogic.gdx.math.Interpolation.ElasticOut
+                  com.badlogic.gdx.math.Interpolation.Bounce
+                    com.badlogic.gdx.math.Interpolation.BounceOut
+                  com.badlogic.gdx.math.Interpolation.SwingIn
+                  com.badlogic.gdx.math.Interpolation.Exp
+                  com.badlogic.gdx.math.Interpolation.BounceIn
+                  com.badlogic.gdx.math.Interpolation.SwingOut
+                  com.badlogic.gdx.math.Interpolation.ElasticIn
+                  com.badlogic.gdx.math.Interpolation.ExpIn
+                  com.badlogic.gdx.math.Interpolation.ExpOut
+          com.badlogic.gdx.math.Quaternion[]
+        com.badlogic.gdx.math.Matrix4[]
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.Angular
+      com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.Strength
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.Rotational2D
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.BrownianAcceleration
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.Rotational3D
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.TangentialAcceleration
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.PolarAcceleration
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.FaceDirection
+    com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsModifier.CentripetalAcceleration
+  com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer
+    com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer.Random
+    com.badlogic.gdx.graphics.g3d.particles.influencers.ColorInfluencer.Single
+  com.badlogic.gdx.graphics.g3d.particles.influencers.DynamicsInfluencer
+    com.badlogic.gdx.utils.Array
+      com.badlogic.gdx.utils.Array.ArrayIterable
+        com.badlogic.gdx.utils.Array.ArrayIterator
+  com.badlogic.gdx.graphics.g3d.particles.influencers.ModelInfluencer
+    com.badlogic.gdx.graphics.g3d.particles.influencers.ModelInfluencer.Random
+    com.badlogic.gdx.graphics.g3d.particles.influencers.ModelInfluencer.Single
+  com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerInfluencer
+    com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerInfluencer.Random
+    com.badlogic.gdx.graphics.g3d.particles.influencers.ParticleControllerInfluencer.Single
+  com.badlogic.gdx.graphics.g3d.particles.influencers.SpawnInfluencer
+  com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer
+    com.badlogic.gdx.graphics.g2d.TextureRegion[]
+    com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer.Random
+    com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer.AspectTextureRegion
+      com.badlogic.gdx.graphics.g2d.TextureRegion
+        com.badlogic.gdx.graphics.Texture
+          java.util.Map
+          com.badlogic.gdx.graphics.TextureData
+            com.badlogic.gdx.graphics.TextureData.TextureDataType
+              java.lang.Enum
+                java.lang.Enum[]
+              com.badlogic.gdx.graphics.TextureData.TextureDataType[]
+          com.badlogic.gdx.graphics.Texture.TextureFilter
+            com.badlogic.gdx.graphics.Texture.TextureFilter[]
+          com.badlogic.gdx.graphics.Texture.TextureWrap
+            com.badlogic.gdx.graphics.Texture.TextureWrap[]
+        com.badlogic.gdx.graphics.g2d.TextureRegion[][]
+    com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer.Animated
+    com.badlogic.gdx.graphics.g3d.particles.influencers.RegionInfluencer.Single
+  com.badlogic.gdx.utils.OrderedMap
+    com.badlogic.gdx.utils.ObjectMap.Entries
+      com.badlogic.gdx.utils.ObjectMap.Entry
+    com.badlogic.gdx.utils.ObjectMap.Values
+    com.badlogic.gdx.utils.ObjectMap.Keys
+    com.badlogic.gdx.utils.ObjectMap
+  com.badlogic.gdx.utils.Disposable
+  com.badlogic.gdx.utils.ArrayMap
+    com.badlogic.gdx.utils.ArrayMap.Entries
+    com.badlogic.gdx.utils.ArrayMap.Values
+    com.badlogic.gdx.utils.ArrayMap.Keys
+  com.badlogic.gdx.graphics.VertexAttributes
+    com.badlogic.gdx.graphics.VertexAttribute[]
+    com.badlogic.gdx.graphics.VertexAttribute
+    com.badlogic.gdx.graphics.VertexAttributes.Usage
+  com.badlogic.gdx.graphics.Colors
+    com.badlogic.gdx.graphics.Color
+  com.badlogic.gdx.graphics.g3d.particles.ParallelArray
+    com.badlogic.gdx.graphics.g3d.particles.ParallelArray.ChannelInitializer
+    com.badlogic.gdx.graphics.g3d.particles.ParallelArray.IntChannel
+  com.badlogic.gdx.graphics.g3d.model.Animation
+  com.badlogic.gdx.graphics.g3d.model.MeshPart
+  com.badlogic.gdx.graphics.g3d.model.Node
+    com.badlogic.gdx.math.collision.BoundingBox
+      com.badlogic.gdx.math.Vector3[]
+      java.util.List
+        java.util.ListIterator
+  com.badlogic.gdx.graphics.g3d.model.NodeKeyframe
+  com.badlogic.gdx.graphics.g3d.model.NodeAnimation
+  com.badlogic.gdx.graphics.g3d.model.NodePart
+  com.badlogic.gdx.scenes.scene2d.Actor
+    com.badlogic.gdx.scenes.scene2d.Stage
+      com.badlogic.gdx.scenes.scene2d.Group
+        com.badlogic.gdx.math.Rectangle
+          com.badlogic.gdx.math.Vector2[]
+        com.badlogic.gdx.scenes.scene2d.utils.Cullable
+      com.badlogic.gdx.scenes.scene2d.Actor[]
+      boolean[]
+      com.badlogic.gdx.scenes.scene2d.ui.Table.Debug
+        com.badlogic.gdx.scenes.scene2d.ui.Table.Debug[]
+      com.badlogic.gdx.scenes.scene2d.EventListener
+        com.badlogic.gdx.scenes.scene2d.Event
+      com.badlogic.gdx.scenes.scene2d.Action
+      com.badlogic.gdx.scenes.scene2d.Stage.TouchFocus
+    com.badlogic.gdx.scenes.scene2d.Touchable
+      com.badlogic.gdx.scenes.scene2d.Touchable[]
+  com.badlogic.gdx.scenes.scene2d.InputEvent
+    com.badlogic.gdx.scenes.scene2d.InputEvent.Type
+      com.badlogic.gdx.scenes.scene2d.InputEvent.Type[]
+  com.badlogic.gdx.scenes.scene2d.InputListener
+  java.util.HashMap
+  java.util.ArrayList
+  com.badlogic.gdx.scenes.scene2d.actions.TimeScaleAction
+    com.badlogic.gdx.scenes.scene2d.actions.DelegateAction
+  com.badlogic.gdx.scenes.scene2d.actions.FloatAction
+    com.badlogic.gdx.scenes.scene2d.actions.TemporalAction
+  com.badlogic.gdx.scenes.scene2d.actions.AlphaAction
+  com.badlogic.gdx.scenes.scene2d.actions.SequenceAction
+    com.badlogic.gdx.scenes.scene2d.actions.ParallelAction
+  com.badlogic.gdx.scenes.scene2d.actions.ScaleByAction
+    com.badlogic.gdx.scenes.scene2d.actions.RelativeTemporalAction
+  com.badlogic.gdx.scenes.scene2d.actions.CountdownEventAction
+    com.badlogic.gdx.scenes.scene2d.actions.EventAction
+  com.badlogic.gdx.scenes.scene2d.actions.LayoutAction
+  com.badlogic.gdx.scenes.scene2d.actions.AddAction
+  com.badlogic.gdx.scenes.scene2d.actions.RemoveListenerAction
+  com.badlogic.gdx.scenes.scene2d.actions.RotateByAction
+  com.badlogic.gdx.scenes.scene2d.actions.TouchableAction
+  com.badlogic.gdx.scenes.scene2d.actions.AfterAction
+  com.badlogic.gdx.scenes.scene2d.actions.RepeatAction
+  com.badlogic.gdx.scenes.scene2d.actions.MoveByAction
+  com.badlogic.gdx.scenes.scene2d.actions.ColorAction
+  com.badlogic.gdx.scenes.scene2d.actions.MoveToAction
+  com.badlogic.gdx.scenes.scene2d.actions.RemoveAction
+  com.badlogic.gdx.scenes.scene2d.actions.SizeToAction
+  com.badlogic.gdx.scenes.scene2d.actions.AddListenerAction
+  com.badlogic.gdx.scenes.scene2d.actions.RemoveActorAction
+  com.badlogic.gdx.scenes.scene2d.actions.VisibleAction
+  com.badlogic.gdx.scenes.scene2d.actions.RotateToAction
+  com.badlogic.gdx.scenes.scene2d.actions.DelayAction
+  com.badlogic.gdx.scenes.scene2d.actions.IntAction
+  com.badlogic.gdx.scenes.scene2d.actions.RunnableAction
+  com.badlogic.gdx.scenes.scene2d.actions.ScaleToAction
+  com.badlogic.gdx.scenes.scene2d.actions.Actions
+    com.badlogic.gdx.scenes.scene2d.actions.SizeByAction
+    com.badlogic.gdx.scenes.scene2d.Action[]
+  com.google.gwt.user.client.rpc.core.java.lang.Integer_CustomFieldSerializer
+    java.lang.Integer
+      byte
+      short
+  com.google.gwt.user.client.rpc.core.java.lang.Short_CustomFieldSerializer
+    java.lang.Short
+  com.google.gwt.user.client.rpc.core.java.lang.String_CustomFieldSerializer
+  com.google.gwt.user.client.rpc.core.java.lang.Object_Array_CustomFieldSerializer
+  com.google.gwt.user.client.rpc.core.java.lang.Float_CustomFieldSerializer
+    java.lang.Float
+  com.google.gwt.user.client.rpc.core.java.lang.Double_CustomFieldSerializer
+    java.lang.Double
+      double[]
+  com.google.gwt.user.client.rpc.core.java.lang.Byte_CustomFieldSerializer
+    java.lang.Byte
+  com.google.gwt.user.client.rpc.core.java.lang.Character_CustomFieldSerializer
+    java.lang.Character
+  com.google.gwt.user.client.rpc.core.java.lang.Boolean_CustomFieldSerializer
+    java.lang.Boolean
+  com.badlogic.gdx.graphics.g3d.particles.renderers.BillboardControllerRenderData
+  com.badlogic.gdx.math.Frustum
+    com.badlogic.gdx.math.Plane[]
+  com.badlogic.gdx.math.Circle
+  com.badlogic.gdx.math.CatmullRomSpline
+    com.badlogic.gdx.math.Vector[]
+    com.badlogic.gdx.math.Path
+  com.badlogic.gdx.math.Ellipse
+  com.badlogic.gdx.math.Polygon
+  com.badlogic.gdx.math.DelaunayTriangulator
+    short[]
+  com.badlogic.gdx.math.Bresenham2
+    com.badlogic.gdx.math.GridPoint2
+  com.badlogic.gdx.math.GridPoint3
+  com.badlogic.gdx.math.ConvexHull
+  com.badlogic.gdx.math.Bezier
+  com.badlogic.gdx.math.FloatCounter
+    com.badlogic.gdx.math.WindowedMean
+  com.badlogic.gdx.math.CumulativeDistribution
+  com.badlogic.gdx.math.Plane
+    com.badlogic.gdx.math.Plane.PlaneSide
+      com.badlogic.gdx.math.Plane.PlaneSide[]
+  com.badlogic.gdx.math.MathUtils
+  com.badlogic.gdx.math.GeometryUtils
+  com.badlogic.gdx.math.Polyline
+  com.badlogic.gdx.math.EarClippingTriangulator
+  com.badlogic.gdx.math.Intersector
+    com.badlogic.gdx.math.collision.Ray
+    com.badlogic.gdx.math.Intersector.MinimumTranslationVector
+    com.badlogic.gdx.math.Intersector.SplitTriangle
+  com.badlogic.gdx.math.RandomXS128
+  com.badlogic.gdx.math.BSpline
+  com.badlogic.gdx.math.collision.Segment
+  com.badlogic.gdx.math.collision.Sphere
+  com.google.gwt.user.client.rpc.core.java.util.HashMap_CustomFieldSerializer
+  com.google.gwt.user.client.rpc.core.java.util.Map_CustomFieldSerializerBase
+  com.google.gwt.user.client.rpc.core.java.util.ArrayList_CustomFieldSerializer
+  com.badlogic.gdx.graphics.g3d.model.data.ModelTexture
+  com.badlogic.gdx.graphics.g3d.model.data.ModelData
+    com.badlogic.gdx.graphics.g3d.model.data.ModelMesh
+      com.badlogic.gdx.graphics.g3d.model.data.ModelMeshPart[]
+  com.badlogic.gdx.graphics.g3d.model.data.ModelMaterial
+    com.badlogic.gdx.graphics.g3d.model.data.ModelMaterial.MaterialType
+      com.badlogic.gdx.graphics.g3d.model.data.ModelMaterial.MaterialType[]
+  com.badlogic.gdx.graphics.g3d.model.data.ModelNodePart
+    int[][]
+  com.badlogic.gdx.graphics.g3d.model.data.ModelAnimation
+  com.badlogic.gdx.graphics.g3d.model.data.ModelNodeAnimation
+  com.badlogic.gdx.graphics.g3d.model.data.ModelMeshPart
+  com.badlogic.gdx.graphics.g3d.model.data.ModelNode
+    com.badlogic.gdx.graphics.g3d.model.data.ModelNodePart[]
+    com.badlogic.gdx.graphics.g3d.model.data.ModelNode[]
+  com.badlogic.gdx.graphics.g3d.model.data.ModelNodeKeyframe
+  com.badlogic.gdx.scenes.scene2d.ui.Touchpad
+    com.badlogic.gdx.scenes.scene2d.ui.Touchpad.TouchpadStyle
+      com.badlogic.gdx.scenes.scene2d.utils.Drawable
+    com.badlogic.gdx.scenes.scene2d.ui.Widget
+      com.badlogic.gdx.scenes.scene2d.utils.Layout
+  com.badlogic.gdx.scenes.scene2d.ui.HorizontalGroup
+    com.badlogic.gdx.scenes.scene2d.ui.WidgetGroup
+  com.badlogic.gdx.scenes.scene2d.ui.Stack
+  com.badlogic.gdx.scenes.scene2d.ui.Tree
+    com.badlogic.gdx.scenes.scene2d.ui.Tree.TreeStyle
+    com.badlogic.gdx.scenes.scene2d.utils.Selection
+      com.badlogic.gdx.scenes.scene2d.utils.Disableable
+    com.badlogic.gdx.scenes.scene2d.ui.Tree.Node
+    com.badlogic.gdx.scenes.scene2d.utils.ClickListener
+  com.badlogic.gdx.scenes.scene2d.ui.Value
+    com.badlogic.gdx.scenes.scene2d.ui.Value.Fixed
+  com.badlogic.gdx.scenes.scene2d.ui.Cell
+    com.badlogic.gdx.scenes.scene2d.ui.Table
+      com.badlogic.gdx.scenes.scene2d.ui.Skin
+        com.badlogic.gdx.graphics.g2d.BitmapFont
+          com.badlogic.gdx.graphics.g2d.BitmapFont.BitmapFontData
+            com.badlogic.gdx.graphics.g2d.BitmapFont.Glyph[][]
+            com.badlogic.gdx.graphics.g2d.BitmapFont.Glyph
+              byte[][]
+          com.badlogic.gdx.graphics.g2d.BitmapFontCache
+            float[][]
+            com.badlogic.gdx.graphics.g2d.BitmapFont.TextBounds
+            com.badlogic.gdx.graphics.g2d.BitmapFont.HAlignment
+              com.badlogic.gdx.graphics.g2d.BitmapFont.HAlignment[]
+        com.badlogic.gdx.scenes.scene2d.utils.TiledDrawable
+          com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable
+            com.badlogic.gdx.scenes.scene2d.utils.BaseDrawable
+            com.badlogic.gdx.scenes.scene2d.utils.TransformDrawable
+        com.badlogic.gdx.graphics.g2d.NinePatch
+        com.badlogic.gdx.scenes.scene2d.ui.Skin.TintedDrawable
+  com.badlogic.gdx.scenes.scene2d.ui.Container
+  com.badlogic.gdx.scenes.scene2d.ui.VerticalGroup
+  com.badlogic.gdx.scenes.scene2d.ui.Image
+  com.badlogic.gdx.scenes.scene2d.ui.TextField
+    com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldStyle
+    com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldListener
+    com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldFilter
+      com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldFilter.DigitsOnlyFilter
+    com.badlogic.gdx.scenes.scene2d.ui.TextField.OnscreenKeyboard
+    com.badlogic.gdx.scenes.scene2d.ui.TextField.DefaultOnscreenKeyboard
+    com.badlogic.gdx.scenes.scene2d.ui.TextField.TextFieldClickListener
+  com.badlogic.gdx.scenes.scene2d.ui.SplitPane
+    com.badlogic.gdx.scenes.scene2d.ui.SplitPane.SplitPaneStyle
+  com.badlogic.gdx.scenes.scene2d.ui.Window
+    com.badlogic.gdx.scenes.scene2d.ui.Window.WindowStyle
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton
+    com.badlogic.gdx.scenes.scene2d.ui.ImageButton.ImageButtonStyle
+      com.badlogic.gdx.scenes.scene2d.ui.Button.ButtonStyle
+    com.badlogic.gdx.scenes.scene2d.ui.Button
+      com.badlogic.gdx.scenes.scene2d.ui.ButtonGroup
+        com.badlogic.gdx.scenes.scene2d.ui.Button[]
+  com.badlogic.gdx.scenes.scene2d.ui.Dialog
+    com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle
+    com.badlogic.gdx.scenes.scene2d.ui.Label
+    com.badlogic.gdx.scenes.scene2d.ui.TextButton.TextButtonStyle
+  com.badlogic.gdx.scenes.scene2d.ui.SelectBox
+    com.badlogic.gdx.scenes.scene2d.ui.SelectBox.SelectBoxStyle
+      com.badlogic.gdx.scenes.scene2d.ui.ScrollPane.ScrollPaneStyle
+      com.badlogic.gdx.scenes.scene2d.ui.List.ListStyle
+    com.badlogic.gdx.scenes.scene2d.ui.List
+      com.badlogic.gdx.scenes.scene2d.utils.ArraySelection
+    com.badlogic.gdx.scenes.scene2d.ui.ScrollPane
+      com.badlogic.gdx.scenes.scene2d.utils.ActorGestureListener
+  com.badlogic.gdx.scenes.scene2d.ui.Slider
+    com.badlogic.gdx.scenes.scene2d.ui.ProgressBar
+      com.badlogic.gdx.scenes.scene2d.ui.ProgressBar.ProgressBarStyle
+    com.badlogic.gdx.scenes.scene2d.ui.Slider.SliderStyle
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox
+    com.badlogic.gdx.scenes.scene2d.ui.CheckBox.CheckBoxStyle
+    com.badlogic.gdx.scenes.scene2d.ui.TextButton
+  com.badlogic.gdx.scenes.scene2d.ui.TextArea
+    com.badlogic.gdx.scenes.scene2d.ui.TextArea.TextAreaListener
+  com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton
+    com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton.ImageTextButtonStyle
+  com.badlogic.gdx.scenes.scene2d.utils.Align
+  com.badlogic.gdx.scenes.scene2d.utils.ScissorStack
+  com.badlogic.gdx.scenes.scene2d.utils.NinePatchDrawable
+  com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable
+  com.badlogic.gdx.scenes.scene2d.utils.UIUtils
+  com.badlogic.gdx.scenes.scene2d.utils.FocusListener
+    com.badlogic.gdx.scenes.scene2d.utils.FocusListener.FocusEvent
+      com.badlogic.gdx.scenes.scene2d.utils.FocusListener.FocusEvent.Type
+        com.badlogic.gdx.scenes.scene2d.utils.FocusListener.FocusEvent.Type[]
+  com.badlogic.gdx.scenes.scene2d.utils.DragListener
+  com.badlogic.gdx.scenes.scene2d.utils.DragScrollListener
+  com.badlogic.gdx.scenes.scene2d.utils.ChangeListener
+    com.badlogic.gdx.scenes.scene2d.utils.ChangeListener.ChangeEvent
+  com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop
+    com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop.Payload
+    com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop.Target
+      com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop.Source
+  com.toet.TinyVoxel.Renderer.Bundles.Bundle
+    com.toet.TinyVoxel.Renderer.Bundles.Grid[]
+    com.toet.TinyVoxel.Renderer.Bundles.Grid
+      boolean[][][]
+      int[][][]
+      com.toet.TinyVoxel.Renderer.Tools.BrushUtils.Brush
+  com.toet.TinyVoxel.Renderer.Bundles.GridBundle
+  com.toet.TinyVoxel.Renderer.Bundles.GridInterface
+  java.lang.StringIndexOutOfBoundsException
+:html:draftCompileGwt FAILED
+
+BUILD FAILED
+
+Total time: 24.527 secs

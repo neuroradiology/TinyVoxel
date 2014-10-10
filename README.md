@@ -30,7 +30,7 @@ Isn't incorporated at the moment, but could be in the future. Biggest hurdle is 
 
 Character
 ---------
-The character script I wrote myself. It uses two sphere to test for collisions. If the character is stuck, it moves upwards 
+The character script uses two spheres to test for collisions. If the character is stuck, it moves upwards 
 until it is free.
 
 Controls
@@ -50,3 +50,7 @@ Technique
 ---------
 This engine uses a combination of raycasting and geometric voxels. To stay GLES 2.0 compatible (and not uses fragDepth), 
 there are some depth inconsistencies, when different grids collide.
+
+Import
+------
+Currently the loading falls back to import. Importing of binvox models is supported. Importing of mesh (g3dj, g3db or obj) models is supported.

@@ -1,11 +1,19 @@
 TinyVoxel
 =========
+by Kaj Toet
 
 A voxelrenderer made with LibGDX supporting desktop, Android and browser. iOS is untested. Ouya support is buggy, due to the small depth buffer.
+
+For an Android build, copy the assets from core/assets to android/assets.
 
 Everything is GLES 2.0 compatible and there are no extensions used.
 
 See an example of a HTML build at http://www.vrpaint.com/voxel .
+
+Build
+-----
+TinyVoxel relies on Gradle. It is very easy to use if you install a Gradle plugin for your favorite IDE. 
+Build from command line with for example: 'gradlew html:dist' for a distribution HTML version.
 
 Usage
 -----
